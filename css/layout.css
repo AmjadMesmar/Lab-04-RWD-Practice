@@ -1,53 +1,54 @@
 @media (min-width:480px) and (max-width:776px) {
 
-.a,.b,.c,.d,.e,.f,.g,.h,.i {
-        background-color: cornflowerblue;
-        color:whitesmoke;
-        border: 1px solid black;
-        text-align: center;
- }
-
-.a,.b,.c,.d {
-width: 480px;
-height: 75px;
-line-height: 75px;
-
-}
-
-.e,.f,.g,.h {
-width: 240px;
-height: 250px;
-line-height: 250px;
-
-}
-
-.ef {
-    display: flex;
-    flex-flow: row wrap;
-    /* align-content: left; */
-}
-
-.gh {
-    display: flex;
-    flex-flow: row wrap;
-    /* align-content: left; */
-}
-
-.i {
-width: 480px;
-height: 80px;
-line-height: 75px;
-
-}
-
-/* .e,.g {
-    float: left;
-}
-.f,.h {
-float: right;
-} */
-
-}
+    .a,.b,.c,.d,.e,.f,.g,.h,.i {
+            background-color: cornflowerblue;
+            color:whitesmoke;
+            border: 1px solid black;
+            text-align: center;
+     }
+    
+    .a,.b,.c,.d {
+    width: 480px;
+    height: 75px;
+    line-height: 4em;
+    
+    }
+    
+    .e,.f,.g,.h {
+    width: 240px;
+    height: 250px;
+    line-height: 16em;
+    
+    }
+    
+    .ef {
+        display: flex;
+        flex-flow: row wrap;
+        /* align-content: left; */
+    }
+    
+    .gh {
+        display: flex;
+        flex-flow: row wrap;
+        /* align-content: left; */
+    }
+    
+    .i {
+    width: 480px;
+    height: 80px;
+    line-height: 5em;
+    
+    }
+    
+    /* .e,.g {
+        float: left;
+    }
+    .f,.h {
+    float: right;
+    } */
+    
+    }
+    
 
 @media (min-width:768px) and (max-width:960px) {
     .a,.b,.c,.d,.e,.f,.g,.h,.i {
@@ -59,14 +60,14 @@ float: right;
     .a {
     width: 960px;
     height: 100px;
-    line-height: 80px;
+    line-height: 5em;
 
     }
     .b {
         width: 200px;
         height:600px;
         float: left;
-        line-height: 600px;
+        line-height: 37em;
 
         }
         /* .bedit {
@@ -77,14 +78,14 @@ float: right;
         width: 380px;
         height:200px;
         /* float: left; */
-        line-height: 190px;
+        line-height: 11em;
 
     }
     .d{
         width: 380px;
         height:200px;
         /* float: right; */
-        line-height: 190px;
+        line-height: 11em;
 
     }
 
@@ -106,7 +107,7 @@ float: right;
         .efgh{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
-            line-height: 250px;
+            line-height: 15em;
 
             /* flex-direction: row;
             flex-wrap: wrap;
@@ -125,15 +126,13 @@ float: right;
     width: 190px;;
     height: 250px;
     /* float: right; */
-    line-height: 250px;
-
     }
     
     .i {
     width: 760px;
     height: 150px;
     float: left;
-    line-height: 170px;
+    line-height: 10em;
 
     }
 
@@ -150,14 +149,14 @@ float: right;
         .a {
             width: 960px;
             height: 100px;
-            line-height: 80px;
+            line-height: 5em;
         
             }
             .b {
                 width: 200px;
                 height:600px;
                 float: left;
-                line-height: 600px;
+                line-height: 37em;
         
                 }
                 /* .bedit {
@@ -168,14 +167,14 @@ float: right;
                 width: 380px;
                 height:200px;
                 /* float: left; */
-                line-height: 190px;
+                line-height: 11em;
         
             }
             .d{
                 width: 380px;
                 height:200px;
                 /* float: right; */
-                line-height: 190px;
+                line-height: 11em;
         
             }
         
@@ -197,7 +196,7 @@ float: right;
                 .efgh{
                     display: grid;
                     grid-template-columns: 1fr 1fr 1fr 1fr;
-                    line-height: 250px;
+                    line-height: 15em;
         
                     /* flex-direction: row;
                     flex-wrap: wrap;
@@ -216,15 +215,13 @@ float: right;
             width: 190px;;
             height: 250px;
             /* float: right; */
-            line-height: 250px;
-        
             }
             
             .i {
             width: 760px;
             height: 150px;
             float: left;
-            line-height: 170px;
+            line-height: 10em;
         
             }
     
